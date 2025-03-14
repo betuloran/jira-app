@@ -9,6 +9,27 @@
   flex-direction: column;
 }
 
-.task-create{
+.task-create {
   width: 450px;
+}
+
+.task-baslik {
+  margin: 10px 0;
+}
+
+.box {
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.btn {
+  margin: 10px 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  border: purple;
+  padding: 10px;
+  background-color: blueviolet;
 }
