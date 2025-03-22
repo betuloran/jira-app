@@ -19,7 +19,8 @@ function App() {
   const deleteTaskById = (id) => {
    const afterDeletingTask= tasks.filter((task) => {
       return task.id !==id;
-    })
+   })
+    setTasks(afterDeletingTask);
   }
   return (
     <div className="App">
